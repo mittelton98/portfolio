@@ -5,59 +5,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sebastian Mittelton | .NET Developer</title>
+    <meta
+        name="description"
+        content="Portfolio för Sebastian Mittelton, .NET-utvecklare med fokus på C#, ASP.NET Core och cloud."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">SM</div>
+    <header class="site-header">
+        <nav class="nav container">
+            <a class="logo" href="#top">SM</a>
 
             <div class="nav-links">
                 <a href="#about">Om mig</a>
+                <a href="#skills">Kompetenser</a>
                 <a href="#projects">Projekt</a>
                 <a href="#contact">Kontakt</a>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main id="top">
 
-        <section class="hero">
+        <section class="hero container">
+            <div class="hero-content">
+                <p class="eyebrow">PORTFOLIO 2026</p>
 
-            <p class="eyebrow">PORTFOLIO 2026</p>
+                <h1>Sebastian<br>Mittelton</h1>
 
-            <h1>Sebastian<br>Mittelton</h1>
+                <h2>.NET Developer</h2>
 
-            <h2>.NET Developer</h2>
+                <p class="intro">
+                    Jag utbildar mig till systemutvecklare med fokus på .NET och cloud.
+                    Här samlar jag projekt, teknik jag arbetar med och min utveckling
+                    inom C#, ASP.NET Core, databaser och molntjänster.
+                </p>
 
-            <p class="intro">
-                Systemutvecklare med fokus på C#, .NET och cloud.
-                Här dokumenterar jag min resa, mina projekt och de lösningar
-                jag bygger under utbildningen.
+                <div class="hero-buttons">
+                    <a
+                        class="button button-primary"
+                        href="#projects"
+                    >
+                        Se mina projekt
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="https://github.com/mittelton98"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="section container">
+            <p class="section-label">OM MIG</p>
+            <h2 class="section-title">Från digitalt till utveckling</h2>
+
+            <div class="about-grid">
+                <p>
+                    Jag har en bakgrund inom e-handel och digital marknadsföring men arbetar nu
+                    vidare mot en karriär inom utveckling. Mitt fokus ligger främst
+                    på .NET, C# och moderna molnbaserade lösningar.
+                </p>
+
+                <p>
+                    Målet med den här portfolion är att dokumentera det jag lär mig,
+                    visa projekt jag bygger och successivt utveckla både min kod
+                    och min tekniska förståelse.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="skills" class="section container">
+            <p class="section-label">KOMPETENSER</p>
+            <h2 class="section-title">Teknik jag arbetar med</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>C#</h3>
+                    <p>Grundläggande programmering och objektorientering.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>.NET</h3>
+                    <p>Applikationsutveckling inom Microsofts .NET-plattform.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Versionshantering, repositories, commits och deployment.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Struktur, styling och responsiva webbsidor.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Cloud</h3>
+                    <p>Molntjänster och deployment, med fokus på Azure framöver.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>SQL</h3>
+                    <p>Databaser och datahantering under utbildningens gång.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section container">
+            <p class="section-label">PROJEKT</p>
+            <h2 class="section-title">Det jag bygger</h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div>
+                        <p class="project-number">01</p>
+
+                        <h3>Developer Portfolio</h3>
+
+                        <p>
+                            Min personliga portfolio byggd från grunden med HTML,
+                            CSS, GitHub Pages, Cloudflare DNS och egen domän.
+                        </p>
+                    </div>
+
+                    <div class="project-footer">
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Git</span>
+                            <span>Cloudflare</span>
+                        </div>
+
+                        <a
+                            href="https://github.com/mittelton98/portfolio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card project-placeholder">
+                    <p class="project-number">02</p>
+                    <h3>Nästa projekt</h3>
+                    <p>
+                        Här kommer mitt nästa större projekt inom C# och .NET.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="contact" class="section container contact-section">
+            <p class="section-label">KONTAKT</p>
+
+            <h2 class="section-title">
+                Vill du komma i kontakt med mig?
+            </h2>
+
+            <p>
+                Följ gärna min utveckling på GitHub eller kontakta mig via mejl.
             </p>
 
-            <div class="buttons">
-
-                <a class="primary-btn"
-                   href="https://github.com/mittelton98"
-                   target="_blank">
+            <div class="contact-links">
+                <a
+                    href="https://github.com/mittelton98"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     GitHub
                 </a>
 
-                <a class="secondary-btn" href="#contact">
-                    Kontakt
+                <a href="mailto:mittelton98@gmail.com">
+                    E-post
                 </a>
-
             </div>
-
         </section>
 
     </main>
 
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Sebastian Mittelton</p>
+            <p>mittelton.dev</p>
+        </div>
+    </footer>
+
+
     <script src="script.js"></script>
 
 </body>
-</html>`
+</html>
